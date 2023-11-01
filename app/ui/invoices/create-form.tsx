@@ -1,5 +1,4 @@
 "use client";
-import { State } from "@/app/lib/actions";
 import { CustomerField } from "@/app/lib/definitions";
 import { useFormState } from "react-dom";
 import Link from "next/link";

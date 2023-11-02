@@ -3,6 +3,12 @@ import Link from "next/link";
 import { lusitana } from "./ui/fonts";
 import Image from "next/image";
 
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Home page',
+};
+
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
